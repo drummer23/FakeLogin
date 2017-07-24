@@ -20,8 +20,15 @@ img.logo {
 .form-signin {
   max-width: 330px;
   padding: 15px;
+  padding-top: 38px;
   margin: 0 auto;
 }
+
+.form-signin p {
+  color: #999;
+  margin: 14px 0;
+}
+
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
   margin-bottom: 10px;
@@ -53,7 +60,7 @@ img.logo {
 }
 
 .form-signin .btn {
-  /*background-color: rgb(165,	0,	145);*/
+  background-color: rgb(165,	0,	145);
   /*background-color: rgb(255,	151,	0);*/
   margin-top: 20px;
 }
