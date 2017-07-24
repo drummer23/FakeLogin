@@ -1,6 +1,3 @@
-/* Sign In */
-
-
 body {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -17,6 +14,9 @@ img.logo {
   display:block;
 }
 
+
+/* Form */
+
 .form-signin {
   max-width: 330px;
   padding: 15px;
@@ -27,6 +27,11 @@ img.logo {
 .form-signin p {
   color: #999;
   margin: 14px 0;
+}
+
+.form-signin .iconbig {
+  font-size: 58px;
+  margin: 34px 0;
 }
 
 .form-signin .form-signin-heading,

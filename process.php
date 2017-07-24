@@ -28,19 +28,16 @@
 
     <img class="logo" src="img/logo.png" alt="Files and Folders">
 
-    <form  action="process.php" method="post" class="form-signin">
+    <form class="form-signin">
 
-      <p>Please login using your Email Account to access shared files:</p>
 
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <p class="text-center">An activation link will be sent to your eMail address. Please open the link to access your files.</p>
 
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="text-center"><span class="glyphicon glyphicon-ok iconbig" aria-hidden="true"></span></p>
 
       <p class="text-center">&nbsp;</p>
-      <p class="text-center"><a href="#">Create new accout</a></p>
+
+      <p class="text-center"><b>Note</b>: This can take up to 30 minutes - please be patient.</p>
 
     </form>
 
