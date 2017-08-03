@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 
-/.idea/
-/log/logfile.txt
+.idea/
+.idea/workspace.xml
+log/logfile.txt
+
