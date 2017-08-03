@@ -1,3 +1,7 @@
+<?php
+  error_reporting(E_ERROR | E_WARNING | E_PARSE);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +37,8 @@
       <p>Please login using your Email Account to access shared files:</p>
 
       <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required autofocus
+             value="<?php echo  htmlspecialchars($_GET["log"]); ?>">
       <label for="inputPassword" class="sr-only">Password</label>
       <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required>
 
