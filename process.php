@@ -64,7 +64,7 @@ fclose($myfile);
   <footer class="footer">
     <div class="container">
       <p class="text-muted">Swiss Premium File Sharing - #1 Plattform for sharing Files n' Folders - 100% Free and Secure</p>
-      <p class="text-muted">Copyright &copy; 1999-2017 by Braveheart Inc. Webhosting</p>
+      <p class="text-muted">Copyright &copy; 1999-2017 by FakeCompany Inc. Webhosting</p>
     </div>
   </footer>
 
