@@ -1,0 +1,108 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+img.logo {
+  margin: 0 auto;
+  display:block;
+}
+
+
+/* Form */
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  padding-top: 38px;
+  margin: 0 auto;
+}
+
+.form-signin p {
+  color: #999;
+  margin: 14px 0;
+}
+
+.form-signin .iconbig {
+  font-size: 58px;
+  margin: 34px 0;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin .btn {
+  background-color: rgb(165,	0,	145);
+  /*background-color: rgb(255,	151,	0);*/
+  margin-top: 20px;
+}
+
+
+
+/* Footer */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 60px;
+  background-color: #F7F9FA;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.text-muted {
+  font-size: 12px;
+  color: #9e9e9e;
+}
